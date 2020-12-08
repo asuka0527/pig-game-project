@@ -54,6 +54,30 @@
       <!-- <img src="dice-5.png" alt="Dice" class="dice" id="dice-2" /> -->
     </div>
 
+    <div class="modal hidden">
+      <button class="btn-close-modal">&times;</button>
+      <h2 class="modal-header">Game Mechanics</h2>
+      <ul class="game-list">
+        <li class="game-item">The game has 2 players, playing in rounds</li>
+        <li class="game-item">
+          In each turn, a player rolls a dice as many times as he whishes. Each
+          result get added to his ROUND score
+        </li>
+        <li class="game-item">
+          BUT, if the player rolls a 1, all his ROUND score gets lost. After
+          that, it's the next player's turn
+        </li>
+        <li class="game-item">
+          The player can choose to 'Hold', which means that his ROUND score gets
+          added to his GLBAL score. After that, it's the next player's turn
+        </li>
+        <li class="game-item">
+          The first player to reach 100 points on GLOBAL score wins the game
+        </li>
+      </ul>
+    </div>
+    <div class="overlay hidden"></div>
+
     <script src="app.js"></script>
   </body>
 </html>
